@@ -9,6 +9,19 @@
 /*   Updated: 2025/11/23 17:36:40 by brendos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+/*static void	print_stack(t_dlist *stack)
+{
+	t_node	*tmp;
+
+	tmp = stack->head;
+	printf("Stack: ");
+	while (tmp)
+	{
+		printf("%d ", *(int *)tmp->data);
+		tmp = tmp->next;
+	}
+	printf("\n");
+}*/
 
 #include "push_swap.h"
 
